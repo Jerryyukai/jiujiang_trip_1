@@ -1,0 +1,1811 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2026元旦九江三天两晚旅游攻略 | 上海出发</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --ink-black: #1a1a1a;
+            --ink-gray: #3d3d3d;
+            --paper-cream: #f7f3eb;
+            --paper-white: #fdfcfa;
+            --mountain-green: #2d5a4a;
+            --mountain-light: #4a7c6a;
+            --autumn-orange: #d4763a;
+            --autumn-light: #e8a065;
+            --water-blue: #4a6fa5;
+            --water-light: #6b8fc5;
+            --cloud-gray: #9ca3af;
+            --border-light: #e5e0d5;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Noto Serif SC', serif;
+            background: var(--paper-cream);
+            color: var(--ink-black);
+            line-height: 1.8;
+            font-size: 16px;
+        }
+
+        /* Hero Section */
+        .hero {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #1a3a2a 0%, #2d5a4a 50%, #1a3a2a 100%);
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'%3E%3Cpath fill='%23ffffff08' d='M0,160L48,170.7C96,181,192,203,288,197.3C384,192,480,160,576,165.3C672,171,768,213,864,218.7C960,224,1056,192,1152,165.3C1248,139,1344,117,1392,106.7L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z'%3E%3C/path%3E%3C/svg%3E") no-repeat bottom;
+            background-size: cover;
+            opacity: 0.3;
+        }
+
+        .hero-content {
+            text-align: center;
+            color: var(--paper-white);
+            z-index: 1;
+            padding: 2rem;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .hero-badge {
+            display: inline-block;
+            background: rgba(255,255,255,0.15);
+            backdrop-filter: blur(10px);
+            padding: 0.5rem 1.5rem;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            margin-bottom: 2rem;
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+
+        .hero h1 {
+            font-family: 'ZCOOL XiaoWei', serif;
+            font-size: clamp(2.5rem, 8vw, 5rem);
+            font-weight: 400;
+            margin-bottom: 1rem;
+            text-shadow: 0 4px 30px rgba(0,0,0,0.3);
+        }
+
+        .hero h1 span {
+            color: var(--autumn-light);
+        }
+
+        .hero-subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            margin-bottom: 2rem;
+            font-weight: 300;
+        }
+
+        .hero-meta {
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 3rem;
+        }
+
+        .hero-meta-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.95rem;
+            opacity: 0.85;
+        }
+
+        .scroll-indicator {
+            position: absolute;
+            bottom: 2rem;
+            left: 50%;
+            transform: translateX(-50%);
+            animation: bounce 2s infinite;
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateX(-50%) translateY(0); }
+            40% { transform: translateX(-50%) translateY(-10px); }
+            60% { transform: translateX(-50%) translateY(-5px); }
+        }
+
+        .scroll-indicator svg {
+            width: 30px;
+            height: 30px;
+            stroke: rgba(255,255,255,0.6);
+        }
+
+        /* Navigation */
+        .nav {
+            position: sticky;
+            top: 0;
+            background: var(--paper-white);
+            border-bottom: 1px solid var(--border-light);
+            z-index: 100;
+            padding: 1rem 0;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: center;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        .nav a {
+            color: var(--ink-gray);
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+        }
+
+        .nav a:hover {
+            background: var(--mountain-green);
+            color: white;
+        }
+
+        /* Main Content */
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        section {
+            padding: 5rem 0;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .section-number {
+            font-family: 'ZCOOL XiaoWei', serif;
+            font-size: 3rem;
+            color: var(--mountain-light);
+            opacity: 0.3;
+            display: block;
+        }
+
+        .section-title {
+            font-family: 'ZCOOL XiaoWei', serif;
+            font-size: 2rem;
+            color: var(--mountain-green);
+            margin-top: -1rem;
+        }
+
+        .section-desc {
+            color: var(--cloud-gray);
+            margin-top: 0.5rem;
+        }
+
+        /* Cards */
+        .card {
+            background: var(--paper-white);
+            border-radius: 16px;
+            padding: 2rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+            border: 1px solid var(--border-light);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+        }
+
+        .card-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .card-icon {
+            width: 48px;
+            height: 48px;
+            background: linear-gradient(135deg, var(--mountain-green), var(--mountain-light));
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+        }
+
+        .card-title {
+            font-size: 1.25rem;
+            color: var(--ink-black);
+        }
+
+        .card-subtitle {
+            font-size: 0.85rem;
+            color: var(--cloud-gray);
+        }
+
+        /* Tables */
+        .table-wrapper {
+            overflow-x: auto;
+            margin: 1rem 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.9rem;
+        }
+
+        th {
+            background: var(--mountain-green);
+            color: white;
+            padding: 1rem;
+            text-align: left;
+            font-weight: 600;
+        }
+
+        td {
+            padding: 1rem;
+            border-bottom: 1px solid var(--border-light);
+        }
+
+        tr:hover td {
+            background: rgba(45, 90, 74, 0.05);
+        }
+
+        /* Tags */
+        .tag {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            border-radius: 50px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+
+        .tag-green {
+            background: rgba(45, 90, 74, 0.1);
+            color: var(--mountain-green);
+        }
+
+        .tag-orange {
+            background: rgba(212, 118, 58, 0.1);
+            color: var(--autumn-orange);
+        }
+
+        .tag-blue {
+            background: rgba(74, 111, 165, 0.1);
+            color: var(--water-blue);
+        }
+
+        /* Rating Stars */
+        .rating {
+            color: var(--autumn-orange);
+            letter-spacing: 2px;
+        }
+
+        /* Timeline */
+        .timeline {
+            position: relative;
+            padding-left: 2rem;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 3px;
+            background: linear-gradient(to bottom, var(--mountain-green), var(--water-blue), var(--autumn-orange));
+            border-radius: 3px;
+        }
+
+        .timeline-item {
+            position: relative;
+            padding-bottom: 2rem;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -2rem;
+            top: 0.5rem;
+            width: 12px;
+            height: 12px;
+            background: var(--paper-white);
+            border: 3px solid var(--mountain-green);
+            border-radius: 50%;
+            transform: translateX(-50%);
+        }
+
+        .timeline-time {
+            font-size: 0.85rem;
+            color: var(--mountain-green);
+            font-weight: 600;
+        }
+
+        .timeline-content {
+            background: var(--paper-white);
+            padding: 1rem 1.5rem;
+            border-radius: 12px;
+            margin-top: 0.5rem;
+            border: 1px solid var(--border-light);
+        }
+
+        .timeline-title {
+            font-size: 1rem;
+            margin-bottom: 0.25rem;
+        }
+
+        .timeline-desc {
+            font-size: 0.85rem;
+            color: var(--cloud-gray);
+        }
+
+        /* Day Tabs */
+        .day-tabs {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .day-tab {
+            padding: 1rem 2rem;
+            background: var(--paper-white);
+            border: 2px solid var(--border-light);
+            border-radius: 12px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            flex: 1;
+            min-width: 150px;
+            text-align: center;
+        }
+
+        .day-tab:hover, .day-tab.active {
+            border-color: var(--mountain-green);
+            background: var(--mountain-green);
+            color: white;
+        }
+
+        .day-tab-date {
+            font-size: 0.8rem;
+            opacity: 0.7;
+        }
+
+        .day-tab-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+        }
+
+        .day-content {
+            display: none;
+        }
+
+        .day-content.active {
+            display: block;
+            animation: fadeIn 0.5s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        /* Tips Box */
+        .tips-box {
+            background: linear-gradient(135deg, rgba(212, 118, 58, 0.1), rgba(232, 160, 101, 0.05));
+            border-left: 4px solid var(--autumn-orange);
+            padding: 1.5rem;
+            border-radius: 0 12px 12px 0;
+            margin: 1.5rem 0;
+        }
+
+        .tips-box-title {
+            color: var(--autumn-orange);
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        /* Grid Layout */
+        .grid-2 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 1rem;
+        }
+
+        /* Spot Card */
+        .spot-card {
+            background: var(--paper-white);
+            border-radius: 16px;
+            overflow: hidden;
+            border: 1px solid var(--border-light);
+            transition: all 0.3s ease;
+        }
+
+        .spot-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 40px rgba(0,0,0,0.1);
+        }
+
+        .spot-header {
+            background: linear-gradient(135deg, var(--mountain-green), var(--water-blue));
+            padding: 1.5rem;
+            color: white;
+        }
+
+        .spot-level {
+            font-size: 0.75rem;
+            background: rgba(255,255,255,0.2);
+            padding: 0.25rem 0.75rem;
+            border-radius: 50px;
+            display: inline-block;
+            margin-bottom: 0.5rem;
+        }
+
+        .spot-name {
+            font-size: 1.25rem;
+            font-weight: 600;
+        }
+
+        .spot-rating {
+            font-size: 0.85rem;
+            opacity: 0.9;
+            margin-top: 0.25rem;
+        }
+
+        .spot-body {
+            padding: 1.5rem;
+        }
+
+        .spot-info {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+            font-size: 0.9rem;
+        }
+
+        .spot-info-item {
+            display: flex;
+            gap: 0.75rem;
+        }
+
+        .spot-info-label {
+            color: var(--cloud-gray);
+            min-width: 60px;
+        }
+
+        .spot-info-value {
+            color: var(--ink-black);
+        }
+
+        /* Hotel Card */
+        .hotel-card {
+            background: var(--paper-white);
+            border-radius: 12px;
+            padding: 1.25rem;
+            border: 1px solid var(--border-light);
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            transition: all 0.3s ease;
+        }
+
+        .hotel-card:hover {
+            border-color: var(--mountain-green);
+        }
+
+        .hotel-icon {
+            width: 50px;
+            height: 50px;
+            background: var(--paper-cream);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+        }
+
+        .hotel-info {
+            flex: 1;
+        }
+
+        .hotel-name {
+            font-size: 1rem;
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+        }
+
+        .hotel-address {
+            font-size: 0.8rem;
+            color: var(--cloud-gray);
+        }
+
+        /* Checklist */
+        .checklist {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 0.75rem;
+        }
+
+        .checklist-item {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 0.75rem 1rem;
+            background: var(--paper-white);
+            border-radius: 8px;
+            border: 1px solid var(--border-light);
+            font-size: 0.9rem;
+        }
+
+        .checklist-icon {
+            color: var(--mountain-green);
+        }
+
+        /* Budget Section */
+        .budget-card {
+            background: linear-gradient(135deg, var(--mountain-green), var(--mountain-light));
+            color: white;
+            border-radius: 16px;
+            padding: 2rem;
+        }
+
+        .budget-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .budget-total {
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+
+        .budget-items {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+        }
+
+        .budget-item {
+            background: rgba(255,255,255,0.1);
+            padding: 1rem;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .budget-item-amount {
+            font-size: 1.25rem;
+            font-weight: 600;
+        }
+
+        .budget-item-label {
+            font-size: 0.85rem;
+            opacity: 0.8;
+        }
+
+        /* Weather */
+        .weather-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 1rem;
+        }
+
+        .weather-card {
+            background: var(--paper-white);
+            border-radius: 12px;
+            padding: 1.5rem;
+            text-align: center;
+            border: 1px solid var(--border-light);
+        }
+
+        .weather-date {
+            font-size: 0.9rem;
+            color: var(--cloud-gray);
+            margin-bottom: 0.5rem;
+        }
+
+        .weather-icon {
+            font-size: 2.5rem;
+            margin: 0.5rem 0;
+        }
+
+        .weather-temp {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--ink-black);
+        }
+
+        .weather-desc {
+            font-size: 0.85rem;
+            color: var(--cloud-gray);
+        }
+
+        /* Footer */
+        footer {
+            background: var(--ink-black);
+            color: var(--paper-cream);
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+
+        .footer-title {
+            font-family: 'ZCOOL XiaoWei', serif;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+            margin: 1.5rem 0;
+        }
+
+        .footer-link {
+            color: var(--cloud-gray);
+            font-size: 0.9rem;
+        }
+
+        .footer-link span {
+            color: var(--paper-cream);
+        }
+
+        .footer-copy {
+            font-size: 0.8rem;
+            color: var(--cloud-gray);
+            margin-top: 2rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero-meta {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            .nav-container {
+                gap: 0.25rem;
+            }
+
+            .nav a {
+                padding: 0.4rem 0.8rem;
+                font-size: 0.8rem;
+            }
+
+            section {
+                padding: 3rem 0;
+            }
+
+            .container {
+                padding: 0 1rem;
+            }
+
+            .card {
+                padding: 1.5rem;
+            }
+
+            .day-tab {
+                min-width: 100px;
+                padding: 0.75rem 1rem;
+            }
+
+            table {
+                font-size: 0.8rem;
+            }
+
+            th, td {
+                padding: 0.75rem 0.5rem;
+            }
+        }
+
+        /* Print Styles */
+        @media print {
+            .hero {
+                min-height: auto;
+                padding: 2rem;
+            }
+
+            .nav {
+                display: none;
+            }
+
+            .card:hover {
+                transform: none;
+                box-shadow: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-badge">🎄 2026年元旦特辑</div>
+            <h1>上海 → <span>九江</span></h1>
+            <p class="hero-subtitle">三天两晚 · 庐山云雾 · 浔阳古韵</p>
+            <div class="hero-meta">
+                <div class="hero-meta-item">
+                    <span>🚄</span>
+                    <span>高铁4-5小时</span>
+                </div>
+                <div class="hero-meta-item">
+                    <span>💰</span>
+                    <span>人均约2000元</span>
+                </div>
+                <div class="hero-meta-item">
+                    <span>📅</span>
+                    <span>2025.12.31 - 2026.1.2</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M7 13l5 5 5-5M7 6l5 5 5-5"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="#transport">出行规划</a>
+            <a href="#local-transport">市内交通</a>
+            <a href="#attractions">景点推荐</a>
+            <a href="#hotels">住宿建议</a>
+            <a href="#checkin">打卡推荐</a>
+            <a href="#itinerary">行程安排</a>
+            <a href="#tips">实用贴士</a>
+        </div>
+    </nav>
+
+    <!-- Transport Section -->
+    <section id="transport">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">01</span>
+                <h2 class="section-title">出行规划</h2>
+                <p class="section-desc">上海到九江，高铁是最佳选择</p>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-icon">🚄</div>
+                    <div>
+                        <div class="card-title">交通方式对比</div>
+                        <div class="card-subtitle">推荐高铁G字头，舒适便捷</div>
+                    </div>
+                </div>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>交通方式</th>
+                                <th>出发站</th>
+                                <th>到达站</th>
+                                <th>时长</th>
+                                <th>票价</th>
+                                <th>推荐</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><span class="tag tag-green">高铁G字头</span></td>
+                                <td>上海虹桥/上海南站</td>
+                                <td>九江站/庐山站</td>
+                                <td>4-5小时</td>
+                                <td>二等座 ¥280-320</td>
+                                <td class="rating">★★★★★</td>
+                            </tr>
+                            <tr>
+                                <td><span class="tag tag-blue">动车D字头</span></td>
+                                <td>上海虹桥</td>
+                                <td>九江站</td>
+                                <td>5-6小时</td>
+                                <td>二等座 ¥200-260</td>
+                                <td class="rating">★★★★☆</td>
+                            </tr>
+                            <tr>
+                                <td><span class="tag tag-orange">普通火车K字头</span></td>
+                                <td>上海站</td>
+                                <td>九江站</td>
+                                <td>10-12小时</td>
+                                <td>硬卧 ¥200左右</td>
+                                <td class="rating">★★★☆☆</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="tips-box">
+                <div class="tips-box-title">💡 温馨提示</div>
+                <ul style="margin-left: 1.5rem; color: var(--ink-gray);">
+                    <li>2026年元旦期间车票紧张，建议提前7-14天（12月中旬）购票</li>
+                    <li>如计划上庐山，可选择到达<strong>庐山站</strong>（高铁站），距离庐山景区更近</li>
+                    <li>如游览九江市区为主，建议到达<strong>九江站</strong>，位于市中心更方便</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Local Transport -->
+    <section id="local-transport" style="background: var(--paper-white);">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">02</span>
+                <h2 class="section-title">九江市内交通</h2>
+                <p class="section-desc">公交便捷，打车实惠</p>
+            </div>
+
+            <div class="grid-2">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-icon">🚌</div>
+                        <div>
+                            <div class="card-title">公交出行</div>
+                            <div class="card-subtitle">主要景点均有覆盖</div>
+                        </div>
+                    </div>
+                    <div class="table-wrapper">
+                        <table>
+                            <tr>
+                                <td><strong>游1路</strong></td>
+                                <td>火车站→锁江楼→浔阳楼→琵琶亭</td>
+                            </tr>
+                            <tr>
+                                <td><strong>96路</strong></td>
+                                <td>烟水亭→锁江楼→主要景区</td>
+                            </tr>
+                            <tr>
+                                <td><strong>101/102路</strong></td>
+                                <td>火车站→烟水亭→市中心商圈</td>
+                            </tr>
+                            <tr>
+                                <td><strong>5路/9路</strong></td>
+                                <td>市区→锁江楼→滨江路沿线</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-icon">📱</div>
+                        <div>
+                            <div class="card-title">乘车方式</div>
+                            <div class="card-subtitle">扫码支付最方便</div>
+                        </div>
+                    </div>
+                    <div style="display: flex; flex-direction: column; gap: 1rem;">
+                        <div style="display: flex; align-items: center; gap: 1rem; padding: 1rem; background: var(--paper-cream); border-radius: 8px;">
+                            <span style="font-size: 1.5rem;">💵</span>
+                            <div>
+                                <div style="font-weight: 600;">现金投币</div>
+                                <div style="font-size: 0.85rem; color: var(--cloud-gray);">2元/次，不设找零</div>
+                            </div>
+                        </div>
+                        <div style="display: flex; align-items: center; gap: 1rem; padding: 1rem; background: var(--paper-cream); border-radius: 8px;">
+                            <span style="font-size: 1.5rem;">📲</span>
+                            <div>
+                                <div style="font-weight: 600;">扫码支付</div>
+                                <div style="font-size: 0.85rem; color: var(--cloud-gray);">支付宝/微信乘车码</div>
+                            </div>
+                        </div>
+                        <div style="display: flex; align-items: center; gap: 1rem; padding: 1rem; background: var(--paper-cream); border-radius: 8px;">
+                            <span style="font-size: 1.5rem;">🚕</span>
+                            <div>
+                                <div style="font-weight: 600;">出租车/网约车</div>
+                                <div style="font-size: 0.85rem; color: var(--cloud-gray);">起步价约7元，市区内10-30元</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" style="margin-top: 1.5rem;">
+                <div class="card-header">
+                    <div class="card-icon" style="background: linear-gradient(135deg, var(--water-blue), var(--water-light));">⛰️</div>
+                    <div>
+                        <div class="card-title">上庐山交通</div>
+                        <div class="card-subtitle">建议乘坐景区大巴</div>
+                    </div>
+                </div>
+                <p style="color: var(--ink-gray); font-size: 0.95rem;">
+                    从<strong>九江汽车站</strong>或<strong>庐山站</strong>乘坐庐山景区专线大巴上山。元旦期间山路可能有冰雪，
+                    <span style="color: var(--autumn-orange); font-weight: 600;">不建议自驾</span>。
+                    包车/拼车价格约100-150元/人（往返）。
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Attractions Section -->
+    <section id="attractions">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">03</span>
+                <h2 class="section-title">景点推荐</h2>
+                <p class="section-desc">热门景点与小众秘境</p>
+            </div>
+
+            <h3 style="font-size: 1.1rem; margin-bottom: 1.5rem; color: var(--mountain-green);">🔥 热门必去</h3>
+            
+            <div class="grid-2">
+                <div class="spot-card">
+                    <div class="spot-header">
+                        <div class="spot-level">AAAAA · 世界文化遗产</div>
+                        <div class="spot-name">庐山国家级风景名胜区</div>
+                        <div class="spot-rating">⭐ 4.6分 · 推荐游玩1-2天</div>
+                    </div>
+                    <div class="spot-body">
+                        <div class="spot-info">
+                            <div class="spot-info-item">
+                                <span class="spot-info-label">📍 地址</span>
+                                <span class="spot-info-value">牯岭镇河西路48号</span>
+                            </div>
+                            <div class="spot-info-item">
+                                <span class="spot-info-label">🎫 门票</span>
+                                <span class="spot-info-value">160元/人（淡季优惠）</span>
+                            </div>
+                            <div class="spot-info-item">
+                                <span class="spot-info-label">⏰ 时间</span>
+                                <span class="spot-info-value">24小时开放</span>
+                            </div>
+                            <div class="spot-info-item">
+                                <span class="spot-info-label">📝 预约</span>
+                                <span class="spot-info-value">"庐山旅游"小程序预约</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="spot-card">
+                    <div class="spot-header" style="background: linear-gradient(135deg, var(--autumn-orange), var(--autumn-light));">
+                        <div class="spot-level">中国四大书院之首</div>
+                        <div class="spot-name">白鹿洞书院</div>
+                        <div class="spot-rating">⭐ 4.7分 · 推荐游玩2-3小时</div>
+                    </div>
+                    <div class="spot-body">
+                        <div class="spot-info">
+                            <div class="spot-info-item">
+                                <span class="spot-info-label">📍 地址</span>
+                                <span class="spot-info-value">庐山风景区内（东侧）</span>
+                            </div>
+                            <div class="spot-info-item">
+                                <span class="spot-info-label">🎫 门票</span>
+                                <span class="spot-info-value">40元/人</span>
+                            </div>
+                            <div class="spot-info-item">
+                                <span class="spot-info-label">⏰ 时间</span>
+                                <span class="spot-info-value">08:00-17:00（冬季）</span>
+                            </div>
+                            <div class="spot-info-item">
+                                <span class="spot-info-label">📝 预约</span>
+                                <span class="spot-info-value">无需预约</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="spot-card">
+                    <div class="spot-header" style="background: linear-gradient(135deg, var(--water-blue), var(--water-light));">
+                        <div class="spot-level">AAAA · 水浒文化</div>
+                        <div class="spot-name">浔阳楼</div>
+                        <div class="spot-rating">⭐ 4.5分 · 推荐游玩1-1.5小时</div>
+                    </div>
+                    <div class="spot-body">
+                        <div class="spot-info">
+                            <div class="spot-info-item">
+                                <span class="spot-info-label">📍 地址</span>
+                                <span class="spot-info-value">滨江东路908号</span>
+                            </div>
+                            <div class="spot-info-item">
+                                <span class="spot-info-label">🎫 门票</span>
+                                <span class="spot-info-value">30元/人</span>
+                            </div>
+                            <div class="spot-info-item">
+                                <span class="spot-info-label">⏰ 时间</span>
+                                <span class="spot-info-value">09:00-20:00</span>
+                            </div>
+                            <div class="spot-info-item">
+                                <span class="spot-info-label">✨ 特色</span>
+                                <span class="spot-info-value">宋江题反诗之地</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="spot-card">
+                    <div class="spot-header" style="background: linear-gradient(135deg, #6b5b95, #9b8bb8);">
+                        <div class="spot-level">白居易遗址</div>
+                        <div class="spot-name">烟水亭风景区</div>
+                        <div class="spot-rating">⭐ 4.3分 · 推荐游玩1小时</div>
+                    </div>
+                    <div class="spot-body">
+                        <div class="spot-info">
+                            <div class="spot-info-item">
+                                <span class="spot-info-label">📍 地址</span>
+                                <span class="spot-info-value">浔阳路1号（甘棠湖中）</span>
+                            </div>
+                            <div class="spot-info-item">
+                                <span class="spot-info-label">🎫 门票</span>
+                                <span class="spot-info-value">20元/人</span>
+                            </div>
+                            <div class="spot-info-item">
+                                <span class="spot-info-label">⏰ 时间</span>
+                                <span class="spot-info-value">09:00-17:00</span>
+                            </div>
+                            <div class="spot-info-item">
+                                <span class="spot-info-label">✨ 特色</span>
+                                <span class="spot-info-value">白居易任江州司马时所建</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h3 style="font-size: 1.1rem; margin: 2.5rem 0 1.5rem; color: var(--mountain-green);">🌟 小众秘境（本地人推荐）</h3>
+            
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>景点</th>
+                            <th>位置</th>
+                            <th>特色</th>
+                            <th>门票</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>甘棠湖</strong></td>
+                            <td>浔阳区市中心</td>
+                            <td>城市湖泊，夜景绝美</td>
+                            <td><span class="tag tag-green">免费</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>李公堤</strong></td>
+                            <td>甘棠湖西南角</td>
+                            <td>湖心步道，适合漫步</td>
+                            <td><span class="tag tag-green">免费</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>南山公园</strong></td>
+                            <td>九莲南路</td>
+                            <td>俯瞰城市，日落绝佳</td>
+                            <td><span class="tag tag-green">免费</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>八里湖海韵沙滩</strong></td>
+                            <td>八里湖大道</td>
+                            <td>城市沙滩，冬日宁静</td>
+                            <td><span class="tag tag-green">免费</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>九派诗廊</strong></td>
+                            <td>八里湖西路</td>
+                            <td>文艺小众，拍照圣地</td>
+                            <td><span class="tag tag-green">免费</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>东林寺</strong></td>
+                            <td>036乡道附近</td>
+                            <td>千年古刹，净宗祖庭</td>
+                            <td><span class="tag tag-green">免费</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hotels Section -->
+    <section id="hotels" style="background: var(--paper-white);">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">04</span>
+                <h2 class="section-title">住宿建议</h2>
+                <p class="section-desc">高性价比酒店推荐</p>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-icon">📍</div>
+                    <div>
+                        <div class="card-title">推荐住宿区域</div>
+                        <div class="card-subtitle">根据行程选择最佳位置</div>
+                    </div>
+                </div>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>区域</th>
+                                <th>优势</th>
+                                <th>适合人群</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>九江火车站周边</strong></td>
+                                <td>交通便利，餐饮丰富</td>
+                                <td><span class="tag tag-green">首选推荐</span></td>
+                            </tr>
+                            <tr>
+                                <td><strong>浔阳路/烟水亭周边</strong></td>
+                                <td>靠近市中心景点</td>
+                                <td>深度游九江市区</td>
+                            </tr>
+                            <tr>
+                                <td><strong>庐山牯岭镇</strong></td>
+                                <td>住在山上，方便游庐山</td>
+                                <td>深度游庐山</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <h3 style="font-size: 1.1rem; margin: 2rem 0 1rem; color: var(--mountain-green);">🏅 经济型（150-300元/晚）</h3>
+            <div class="grid-3">
+                <div class="hotel-card">
+                    <div class="hotel-icon">🏨</div>
+                    <div class="hotel-info">
+                        <div class="hotel-name">全季酒店</div>
+                        <div class="hotel-address">九江火车站广场店 · 长虹大道236号</div>
+                    </div>
+                </div>
+                <div class="hotel-card">
+                    <div class="hotel-icon">🏨</div>
+                    <div class="hotel-info">
+                        <div class="hotel-name">汉庭酒店</div>
+                        <div class="hotel-address">火车站广场店 · 长虹大道528号</div>
+                    </div>
+                </div>
+                <div class="hotel-card">
+                    <div class="hotel-icon">🏨</div>
+                    <div class="hotel-info">
+                        <div class="hotel-name">尚客优快捷酒店</div>
+                        <div class="hotel-address">火车站店 · 长虹大道356号</div>
+                    </div>
+                </div>
+            </div>
+
+            <h3 style="font-size: 1.1rem; margin: 2rem 0 1rem; color: var(--autumn-orange);">🏅 舒适型（300-500元/晚）</h3>
+            <div class="grid-3">
+                <div class="hotel-card">
+                    <div class="hotel-icon" style="background: rgba(212, 118, 58, 0.1);">⭐</div>
+                    <div class="hotel-info">
+                        <div class="hotel-name">亚朵酒店</div>
+                        <div class="hotel-address">火车站店 · 十里大道东侧海逸花园</div>
+                    </div>
+                </div>
+                <div class="hotel-card">
+                    <div class="hotel-icon" style="background: rgba(212, 118, 58, 0.1);">⭐</div>
+                    <div class="hotel-info">
+                        <div class="hotel-name">汉庭酒店</div>
+                        <div class="hotel-address">浔阳路店 · 浔阳路9-11号</div>
+                    </div>
+                </div>
+                <div class="hotel-card">
+                    <div class="hotel-icon" style="background: rgba(212, 118, 58, 0.1);">⭐</div>
+                    <div class="hotel-info">
+                        <div class="hotel-name">全季酒店</div>
+                        <div class="hotel-address">庐山牯岭街如琴湖店</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tips-box" style="margin-top: 2rem;">
+                <div class="tips-box-title">💡 元旦预订提醒</div>
+                <p style="color: var(--ink-gray);">2026年元旦假期酒店紧张，建议提前2周（12月中旬）预订，可关注携程、美团、飞猪等平台优惠活动。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Check-in Section -->
+    <section id="checkin">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">05</span>
+                <h2 class="section-title">网红打卡地</h2>
+                <p class="section-desc">拍照圣地与美食地标</p>
+            </div>
+
+            <h3 style="font-size: 1.1rem; margin-bottom: 1.5rem; color: var(--mountain-green);">📸 拍照圣地</h3>
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>打卡点</th>
+                            <th>位置</th>
+                            <th>交通</th>
+                            <th>特色</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>浔阳江文化旅游景区</strong></td>
+                            <td>白水湖路与滨江东路交叉口</td>
+                            <td>公交游1路</td>
+                            <td>滨江夜景，复古建筑</td>
+                        </tr>
+                        <tr>
+                            <td><strong>浔阳楼</strong></td>
+                            <td>滨江东路908号</td>
+                            <td>公交5路/9路</td>
+                            <td>水浒文化，古典建筑</td>
+                        </tr>
+                        <tr>
+                            <td><strong>甘棠湖夜景</strong></td>
+                            <td>浔阳区市中心</td>
+                            <td>公交101路</td>
+                            <td>湖光倒影，城市名片</td>
+                        </tr>
+                        <tr>
+                            <td><strong>李公堤</strong></td>
+                            <td>甘棠湖西南角</td>
+                            <td>步行可达</td>
+                            <td>湖心小径，文艺出片</td>
+                        </tr>
+                        <tr>
+                            <td><strong>八里湖婚礼公园</strong></td>
+                            <td>八里湖大道海韵沙滩</td>
+                            <td>打车约20元</td>
+                            <td>浪漫地标，适合情侣</td>
+                        </tr>
+                        <tr>
+                            <td><strong>庐山牯岭街</strong></td>
+                            <td>庐山风景区</td>
+                            <td>景区大巴</td>
+                            <td>云中小镇，复古街道</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3 style="font-size: 1.1rem; margin: 2.5rem 0 1.5rem; color: var(--autumn-orange);">🍜 美食推荐</h3>
+            <div class="grid-2">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-icon" style="background: linear-gradient(135deg, var(--autumn-orange), var(--autumn-light));">🍲</div>
+                        <div>
+                            <div class="card-title">特色餐厅</div>
+                        </div>
+                    </div>
+                    <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+                        <div style="padding: 0.75rem; background: var(--paper-cream); border-radius: 8px;">
+                            <div style="font-weight: 600;">小浔庐餐厅（烟水亭店）</div>
+                            <div style="font-size: 0.85rem; color: var(--cloud-gray);">新达巷64号 · 本地特色菜</div>
+                        </div>
+                        <div style="padding: 0.75rem; background: var(--paper-cream); border-radius: 8px;">
+                            <div style="font-weight: 600;">847别墅餐厅</div>
+                            <div style="font-size: 0.85rem; color: var(--cloud-gray);">牯岭镇窑洼路20号 · 山野江西菜</div>
+                        </div>
+                        <div style="padding: 0.75rem; background: var(--paper-cream); border-radius: 8px;">
+                            <div style="font-weight: 600;">绿茶餐厅（快乐城店）</div>
+                            <div style="font-size: 0.85rem; color: var(--cloud-gray);">京九路9号联盛快乐城F4</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-icon" style="background: linear-gradient(135deg, #e8a065, #f5c896);">☕</div>
+                        <div>
+                            <div class="card-title">咖啡奶茶</div>
+                        </div>
+                    </div>
+                    <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+                        <div style="padding: 0.75rem; background: var(--paper-cream); border-radius: 8px;">
+                            <div style="font-weight: 600;">喜茶（浔阳湖滨店）</div>
+                            <div style="font-size: 0.85rem; color: var(--cloud-gray);">庐山南路85号</div>
+                        </div>
+                        <div style="padding: 0.75rem; background: var(--paper-cream); border-radius: 8px;">
+                            <div style="font-weight: 600;">霸王茶姬（大中路店）</div>
+                            <div style="font-size: 0.85rem; color: var(--cloud-gray);">大中路826号</div>
+                        </div>
+                        <div style="padding: 0.75rem; background: var(--paper-cream); border-radius: 8px;">
+                            <div style="font-weight: 600;">庐山故事&牯岭奶茶</div>
+                            <div style="font-size: 0.85rem; color: var(--cloud-gray);">牯岭镇正街18号 · 庐山必打卡</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Itinerary Section -->
+    <section id="itinerary" style="background: var(--paper-white);">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">06</span>
+                <h2 class="section-title">行程安排</h2>
+                <p class="section-desc">轻松不赶，适合年轻人</p>
+            </div>
+
+            <div class="day-tabs">
+                <div class="day-tab active" onclick="showDay(1)">
+                    <div class="day-tab-date">2025年12月31日</div>
+                    <div class="day-tab-title">Day 1</div>
+                </div>
+                <div class="day-tab" onclick="showDay(2)">
+                    <div class="day-tab-date">2026年1月1日</div>
+                    <div class="day-tab-title">Day 2</div>
+                </div>
+                <div class="day-tab" onclick="showDay(3)">
+                    <div class="day-tab-date">2026年1月2日</div>
+                    <div class="day-tab-title">Day 3</div>
+                </div>
+            </div>
+
+            <div id="day1" class="day-content active">
+                <div class="card">
+                    <h3 style="color: var(--mountain-green); margin-bottom: 1.5rem;">🚄 上海→九江，九江市区游</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-time">07:00 - 12:00</div>
+                            <div class="timeline-content">
+                                <div class="timeline-title">🚄 高铁前往九江</div>
+                                <div class="timeline-desc">建议乘早班车，中午到达，可在车上休息</div>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-time">12:00 - 13:30</div>
+                            <div class="timeline-content">
+                                <div class="timeline-title">🍜 午餐：联盛快乐城</div>
+                                <div class="timeline-desc">绿茶餐厅/各类美食，商场内选择丰富</div>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-time">14:00 - 15:30</div>
+                            <div class="timeline-content">
+                                <div class="timeline-title">🏛️ 烟水亭风景区</div>
+                                <div class="timeline-desc">甘棠湖畔，感受浔阳文化，门票20元</div>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-time">15:30 - 17:00</div>
+                            <div class="timeline-content">
+                                <div class="timeline-title">🚶 甘棠湖漫步 + 李公堤</div>
+                                <div class="timeline-desc">悠闲散步，拍照打卡，免费游览</div>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-time">17:00 - 18:30</div>
+                            <div class="timeline-content">
+                                <div class="timeline-title">🛏️ 入住酒店休息</div>
+                                <div class="timeline-desc">火车站周边酒店，整理行李，稍作休息</div>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-time">18:30 - 20:00</div>
+                            <div class="timeline-content">
+                                <div class="timeline-title">🍲 晚餐：小浔庐餐厅</div>
+                                <div class="timeline-desc">品尝九江本地菜，人均60-80元</div>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-time">20:00 - 00:00</div>
+                            <div class="timeline-content">
+                                <div class="timeline-title">🎆 跨年倒计时</div>
+                                <div class="timeline-desc">甘棠湖夜景/滨江路，迎接2026年！</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="day2" class="day-content">
+                <div class="card">
+                    <h3 style="color: var(--mountain-green); margin-bottom: 1.5rem;">⛰️ 庐山一日游 · 2026新年第一天</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-time">07:00 - 08:00</div>
+                            <div class="timeline-content">
+                                <div class="timeline-title">🍳 酒店早餐</div>
+                                <div class="timeline-desc">吃饱出发，山上物价较贵</div>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-time">08:00 - 09:30</div>
+                            <div class="timeline-content">
+                                <div class="timeline-title">🚌 前往庐山</div>
+                                <div class="timeline-desc">景区大巴上山，车程约1小时</div>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-time">09:30 - 12:00</div>
+                            <div class="timeline-content">
+                                <div class="timeline-title">⛰️ 锦绣谷 + 仙人洞</div>
+                                <div class="timeline-desc">经典线路，风景绝美，慢慢走拍照</div>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-time">12:00 - 13:30</div>
+                            <div class="timeline-content">
+                                <div class="timeline-title">🍜 午餐：牯岭街</div>
+                                <div class="timeline-desc">847别墅餐厅/璐姑娘餐厅，山野江西菜</div>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-time">13:30 - 14:30</div>
+                            <div class="timeline-content">
+                                <div class="timeline-title">☕ 牯岭街漫步</div>
+                                <div class="timeline-desc">云中小镇，喝杯热奶茶，逛逛小店</div>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-time">14:30 - 16:30</div>
+                            <div class="timeline-content">
+                                <div class="timeline-title">🌸 花径 + 如琴湖</div>
+                                <div class="timeline-desc">白居易草堂，冬日静谧湖景</div>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-time">16:30 - 18:00</div>
+                            <div class="timeline-content">
+                                <div class="timeline-title">🚌 下山返回九江</div>
+                                <div class="timeline-desc">注意末班车时间，不要错过</div>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-time">18:30 - 20:00</div>
+                            <div class="timeline-content">
+                                <div class="timeline-title">🍲 晚餐 + 休息</div>
+                                <div class="timeline-desc">回酒店附近用餐，早点休息恢复体力</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="day3" class="day-content">
+                <div class="card">
+                    <h3 style="color: var(--mountain-green); margin-bottom: 1.5rem;">🏛️ 文化之旅→返程</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-time">08:00 - 09:00</div>
+                            <div class="timeline-content">
+                                <div class="timeline-title">🍳 酒店早餐 + 退房</div>
+                                <div class="timeline-desc">寄存行李在酒店或火车站</div>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-time">09:00 - 11:00</div>
+                            <div class="timeline-content">
+                                <div class="timeline-title">🏛️ 浔阳楼</div>
+                                <div class="timeline-desc">《水浒传》打卡地，登楼观长江，门票30元</div>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-time">11:00 - 12:00</div>
+                            <div class="timeline-content">
+                                <div class="timeline-title">🌊 滨江路漫步</div>
+                                <div class="timeline-desc">观长江，看锁江楼塔，感受九江历史</div>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-time">12:00 - 13:30</div>
+                            <div class="timeline-content">
+                                <div class="timeline-title">🍜 午餐：大中路美食</div>
+                                <div class="timeline-desc">最后一顿九江美食，尝尝当地小吃</div>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-time">13:30 - 14:30</div>
+                            <div class="timeline-content">
+                                <div class="timeline-title">🛍️ 大中路/上海路逛街</div>
+                                <div class="timeline-desc">买点特产带回家，庐山云雾茶等</div>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-time">15:00 - 15:30</div>
+                            <div class="timeline-content">
+                                <div class="timeline-title">🚶 返回火车站取行李</div>
+                                <div class="timeline-desc">提前到站，预留充足时间</div>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-time">16:00 - 20:00</div>
+                            <div class="timeline-content">
+                                <div class="timeline-title">🚄 高铁返回上海</div>
+                                <div class="timeline-desc">结束愉快的九江之旅！</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tips Section -->
+    <section id="tips">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">07</span>
+                <h2 class="section-title">实用贴士</h2>
+                <p class="section-desc">天气、穿搭、防坑指南</p>
+            </div>
+
+            <h3 style="font-size: 1.1rem; margin-bottom: 1.5rem; color: var(--water-blue);">🌡️ 天气预报（2026年元旦期间预估）</h3>
+            <div class="weather-grid">
+                <div class="weather-card">
+                    <div class="weather-date">2025年12月31日</div>
+                    <div class="weather-icon">🌥️</div>
+                    <div class="weather-temp">5-12°C</div>
+                    <div class="weather-desc">多云转阴</div>
+                </div>
+                <div class="weather-card">
+                    <div class="weather-date">2026年1月1日</div>
+                    <div class="weather-icon">🌧️</div>
+                    <div class="weather-temp">3-10°C</div>
+                    <div class="weather-desc">多云/小雨</div>
+                </div>
+                <div class="weather-card">
+                    <div class="weather-date">2026年1月2日</div>
+                    <div class="weather-icon">☀️</div>
+                    <div class="weather-temp">2-11°C</div>
+                    <div class="weather-desc">晴/多云</div>
+                </div>
+            </div>
+
+            <div class="tips-box" style="margin-top: 1.5rem;">
+                <div class="tips-box-title">⚠️ 庐山气温提醒</div>
+                <p style="color: var(--ink-gray);">庐山山顶气温比市区低 <strong>5-8°C</strong>，请务必做好防寒准备！</p>
+            </div>
+
+            <h3 style="font-size: 1.1rem; margin: 2.5rem 0 1.5rem; color: var(--mountain-green);">👔 穿搭建议</h3>
+            <div class="grid-2">
+                <div class="card">
+                    <div style="display: flex; flex-direction: column; gap: 1rem;">
+                        <div style="display: flex; gap: 1rem; align-items: center;">
+                            <span style="font-size: 1.5rem;">🧥</span>
+                            <div>
+                                <div style="font-weight: 600;">上衣</div>
+                                <div style="font-size: 0.85rem; color: var(--cloud-gray);">羽绒服/厚棉服（必备）+ 毛衣/卫衣</div>
+                            </div>
+                        </div>
+                        <div style="display: flex; gap: 1rem; align-items: center;">
+                            <span style="font-size: 1.5rem;">👖</span>
+                            <div>
+                                <div style="font-weight: 600;">下装</div>
+                                <div style="font-size: 0.85rem; color: var(--cloud-gray);">加绒裤/厚牛仔裤</div>
+                            </div>
+                        </div>
+                        <div style="display: flex; gap: 1rem; align-items: center;">
+                            <span style="font-size: 1.5rem;">👟</span>
+                            <div>
+                                <div style="font-weight: 600;">鞋子</div>
+                                <div style="font-size: 0.85rem; color: var(--cloud-gray);">防滑保暖的运动鞋/登山鞋</div>
+                            </div>
+                        </div>
+                        <div style="display: flex; gap: 1rem; align-items: center;">
+                            <span style="font-size: 1.5rem;">🧣</span>
+                            <div>
+                                <div style="font-weight: 600;">配饰</div>
+                                <div style="font-size: 0.85rem; color: var(--cloud-gray);">帽子、围巾、手套（上庐山必带）</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <h4 style="margin-bottom: 1rem; color: var(--mountain-green);">🎒 必带物品清单</h4>
+                    <div class="checklist">
+                        <div class="checklist-item">
+                            <span class="checklist-icon">✓</span>
+                            <span>身份证</span>
+                        </div>
+                        <div class="checklist-item">
+                            <span class="checklist-icon">✓</span>
+                            <span>充电宝</span>
+                        </div>
+                        <div class="checklist-item">
+                            <span class="checklist-icon">✓</span>
+                            <span>保温杯</span>
+                        </div>
+                        <div class="checklist-item">
+                            <span class="checklist-icon">✓</span>
+                            <span>雨伞/雨衣</span>
+                        </div>
+                        <div class="checklist-item">
+                            <span class="checklist-icon">✓</span>
+                            <span>防晒霜</span>
+                        </div>
+                        <div class="checklist-item">
+                            <span class="checklist-icon">✓</span>
+                            <span>常用药品</span>
+                        </div>
+                        <div class="checklist-item">
+                            <span class="checklist-icon">✓</span>
+                            <span>零食干粮</span>
+                        </div>
+                        <div class="checklist-item">
+                            <span class="checklist-icon">✓</span>
+                            <span>暖宝宝</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h3 style="font-size: 1.1rem; margin: 2.5rem 0 1.5rem; color: var(--autumn-orange);">⚠️ 防坑小贴士</h3>
+            <div class="card">
+                <div style="display: grid; gap: 1rem;">
+                    <div style="display: flex; gap: 1rem; padding: 1rem; background: rgba(212, 118, 58, 0.05); border-radius: 8px; border-left: 3px solid var(--autumn-orange);">
+                        <span style="font-weight: 600; color: var(--autumn-orange); min-width: 24px;">01</span>
+                        <div>
+                            <strong>庐山门票</strong>：提前网上购票，避免排队；学生证可享半价
+                        </div>
+                    </div>
+                    <div style="display: flex; gap: 1rem; padding: 1rem; background: rgba(212, 118, 58, 0.05); border-radius: 8px; border-left: 3px solid var(--autumn-orange);">
+                        <span style="font-weight: 600; color: var(--autumn-orange); min-width: 24px;">02</span>
+                        <div>
+                            <strong>庐山交通</strong>：不建议元旦自驾上山，山路可能结冰；建议乘坐景区大巴
+                        </div>
+                    </div>
+                    <div style="display: flex; gap: 1rem; padding: 1rem; background: rgba(212, 118, 58, 0.05); border-radius: 8px; border-left: 3px solid var(--autumn-orange);">
+                        <span style="font-weight: 600; color: var(--autumn-orange); min-width: 24px;">03</span>
+                        <div>
+                            <strong>山上物价</strong>：庐山上食物和饮料价格是山下2-3倍，建议自带
+                        </div>
+                    </div>
+                    <div style="display: flex; gap: 1rem; padding: 1rem; background: rgba(212, 118, 58, 0.05); border-radius: 8px; border-left: 3px solid var(--autumn-orange);">
+                        <span style="font-weight: 600; color: var(--autumn-orange); min-width: 24px;">04</span>
+                        <div>
+                            <strong>"野导游"</strong>：景区门口主动搭讪的"导游"多为黑导，请谨慎
+                        </div>
+                    </div>
+                    <div style="display: flex; gap: 1rem; padding: 1rem; background: rgba(212, 118, 58, 0.05); border-radius: 8px; border-left: 3px solid var(--autumn-orange);">
+                        <span style="font-weight: 600; color: var(--autumn-orange); min-width: 24px;">05</span>
+                        <div>
+                            <strong>住宿选择</strong>：火车站附近小旅馆鱼龙混杂，建议选择品牌连锁酒店
+                        </div>
+                    </div>
+                    <div style="display: flex; gap: 1rem; padding: 1rem; background: rgba(212, 118, 58, 0.05); border-radius: 8px; border-left: 3px solid var(--autumn-orange);">
+                        <span style="font-weight: 600; color: var(--autumn-orange); min-width: 24px;">06</span>
+                        <div>
+                            <strong>餐饮消费</strong>：就餐前确认价格，避免被宰；景区内餐饮偏贵
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h3 style="font-size: 1.1rem; margin: 2.5rem 0 1.5rem; color: var(--mountain-green);">💰 预算参考（人均）</h3>
+            <div class="budget-card">
+                <div class="budget-header">
+                    <div style="font-size: 0.9rem; opacity: 0.8;">预计总花费</div>
+                    <div class="budget-total">¥1,750 - 2,300</div>
+                </div>
+                <div class="budget-items">
+                    <div class="budget-item">
+                        <div class="budget-item-amount">¥600-700</div>
+                        <div class="budget-item-label">🚄 高铁往返</div>
+                    </div>
+                    <div class="budget-item">
+                        <div class="budget-item-amount">¥400-600</div>
+                        <div class="budget-item-label">🛏️ 住宿2晚</div>
+                    </div>
+                    <div class="budget-item">
+                        <div class="budget-item-amount">¥300-400</div>
+                        <div class="budget-item-label">🍜 餐饮3天</div>
+                    </div>
+                    <div class="budget-item">
+                        <div class="budget-item-amount">¥250-300</div>
+                        <div class="budget-item-label">🎫 门票</div>
+                    </div>
+                    <div class="budget-item">
+                        <div class="budget-item-amount">¥200-300</div>
+                        <div class="budget-item-label">🚌 其他</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-title">祝您2026年元旦九江之旅愉快！🎊</div>
+            <div class="footer-links">
+                <div class="footer-link">📞 九江旅游热线 <span>0792-12345</span></div>
+                <div class="footer-link">🏔️ 庐山景区咨询 <span>0792-8282998</span></div>
+                <div class="footer-link">🚨 紧急救援 <span>110/120/119</span></div>
+            </div>
+            <div class="footer-copy">
+                本攻略数据来源于高德地图API · 2026年元旦特辑<br>
+                仅供参考，实际出行前请核实最新信息
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function showDay(day) {
+            // Remove active class from all tabs and contents
+            document.querySelectorAll('.day-tab').forEach(tab => tab.classList.remove('active'));
+            document.querySelectorAll('.day-content').forEach(content => content.classList.remove('active'));
+            
+            // Add active class to selected tab and content
+            document.querySelectorAll('.day-tab')[day - 1].classList.add('active');
+            document.getElementById('day' + day).classList.add('active');
+        }
+
+        // Smooth scroll for navigation links
+        document.querySelectorAll('.nav a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Add scroll effect to navigation
+        window.addEventListener('scroll', function() {
+            const nav = document.querySelector('.nav');
+            if (window.scrollY > 100) {
+                nav.style.boxShadow = '0 2px 20px rgba(0,0,0,0.1)';
+            } else {
+                nav.style.boxShadow = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
